@@ -12,6 +12,10 @@ body {
 	color: #050000;
 }
 
+a {
+    color: black;
+}
+
 p {
 	font-size: 4em;
 	display: table-cell; 
@@ -24,7 +28,7 @@ p {
 .center {
     margin: auto;
     width: 50%;
-    border: 3px solid green;
+    /* border: 3px solid green; */
     padding: 10px;
   }
 
@@ -49,7 +53,7 @@ p {
 .t3{
     font-size: 2em;
     animation: end-animation 2s;
-    animation-delay: 12s;
+    animation-delay: 11s;
     animation-fill-mode: forwards; 
     position: relative;
     top: 145px;
