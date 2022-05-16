@@ -1,9 +1,9 @@
 @import url(https://fonts.googleapis.com/css?family=Amatic+SC);
 
 body {
-	/* font-family: 'Amatic SC', cursive;
-	background-color: #111111;
-	color: #cccccc; */
+	/* font-family: 'Amatic SC', cursive; */
+	background-color: #ffffff;
+	/* color: #cccccc; */ 
 }
 
 .intro {
@@ -13,13 +13,20 @@ body {
 }
 
 p {
-	font-size: 3em;
+	font-size: 4em;
 	display: table-cell; 
 	vertical-align: middle;
 	text-align: center;
 	opacity: 0;
 
 }
+
+.center {
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
+  }
 
 .text{
 	top: 0; 
@@ -37,6 +44,15 @@ p {
 .t2{
 	animation: t-animation 4s;
 	animation-delay: 4s;
+}
+
+.t3{
+    font-size: 2em;
+    animation: end-animation 2s;
+    animation-delay: 12s;
+    animation-fill-mode: forwards; 
+    position: relative;
+    top: 145px;
 }
 
 .end{
